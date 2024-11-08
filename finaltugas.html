@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kami</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="box1 fade-in">
+            <div class="logo">LayananKami</div>
+            <nav class="kkk">
+                <a href="#kontak">Kontak</a>
+                <a href="#fitur">Fitur</a>
+                <a href="#carakerja">Cara Kerja</a>
+                <a href="#testimoni">Testimoni</a>
+                <a href="#galeri">Galeri</a>
+                <a href="finaltugas2.html" class="button">Halaman 2</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="awal fade-in">
+        <div class="Pembuka">
+            <h1>Selamat datang di <span>Layanan Kami</span></h1>
+            <p>Menyediakan solusi terbaik untuk kebutuhan bisnis Anda.</p>
+            <a href="#kontak" class="btn-hub ">Hubungi Kami</a>
+        </div>
+    </section>
+
+    <div id="kontak"><br></div>
+    <section class="form-section fade-in">
+        <h2 >Kontak Kami</h2>
+        <form id="dataForm"><br>
+            <label for="name">Nama</label>
+            <input type="text" id="name" required placeholder="Masukkan nama tanpa angka"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="contoh@domain.com">
+
+            <label for="status">Status</label>
+            <select id="status">           
+                <option value="Aktif">Aktif</option>
+                <option value="Tidak Aktif">Tidak Aktif</option>
+                <option value="Menunggu">Menunggu</option>
+            </select>
+
+            <button type="button" onclick="addToTable()">Tambah ke Tabel</button>
+        </form>  
+    </section>
+
+
+    <section class="table-section fade-in">
+        <h2>Tabel Data</h2>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </section>
+
+    <script src="finaltugas.js"></script>
+
+    <div id="fitur"><br></div>
+    <section>
+        <div class="jdl-fitur">
+            <h2>Fitur Utama Kami</h2>
+        </div>
+
+        <div class="isi">
+            <ul>
+                <li>Fitur 1 : Layanan Berkualitas Tinggi</li>
+                <li>Fitur 2 : Dukungan 24/7</li>
+                <li>Fitur 3 : Solusi yang Dapat DIsesuaikan</li>
+                <li>Fitur 4 : Harga Terjangkau</li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="carakerja"><br></div>
+        <section>
+            <div class="jdl-carakerja">
+                <h2>Cara Kerja</h2>
+            </div>
+
+            <div class="isi2">
+                <ol>
+                    <li>Langkah 1 : Hubungi Kami</li>
+                    <li>Langkah 2 : Diskusikan Kebutuhan Anda</li>
+                    <li>Langkah 3 : Dapatkan Proposal Khusus</li>
+                    <li>Langkah 4 : Luncurkan Proyek</li>
+                </ol>
+            </div>
+        </section>
+        
+        <div id="testimoni"><br></div>
+        <section>
+        <div class="komentar1">
+            <h2>Apa Kata Klien Kami</h2>
+        </div>
+
+        <div class="testimoni">
+            <div class="komentar"><br>
+                <p>"Pengalaman kami dengan layanan ini sangat luar biasa Tim sangat profesional dan dapat diandalkan.</p>
+                <div class="orang">
+                    -Alex Jhonson
+                </div>
+            </div>
+
+            <div class="komentar"><br>
+                <p>"Mereka melebihi harapan kami dalam segala hal. Sangat merekomendasikan layanan mereka."</p>
+                <div class="orang">
+                    -Sarah Wiliams
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <div id="galeri"><br><br></div>
+        <section>
+            <div class="titel">
+                <h2>Gallery Karya Kami</h2>
+            </div>
+
+            <div class="gambar">
+                <img id="g1" src="images.jpg" alt="Gallery1">
+                <img id="g2" src="images2.jpg" alt="Gallery2">
+                <img id="g3" src="images3.jpg" alt="Gallery3">
+                <img id="g4" src="images4.jpg" alt="Gallery">
+            </div>
+        </section><br><br><br><br>
+
+        <div class="Footer">
+            <div><h4>&copy;2024HalamanUtamaKami. Semua Hak Dilindungi</h4></div>
+        </div>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>

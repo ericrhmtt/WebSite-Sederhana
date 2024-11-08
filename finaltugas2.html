@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 2</title>
+    <link rel="stylesheet" href="finaltugas2.css">
+    <link rel="stylesheet"  type="url" href="">
+</head>
+
+<body>
+    <header>
+        <div class="box1 fade-in">
+            <div class="logo">LayananKami</div>
+            <nav>
+                <a href="finaltugas.html" class="button">Halaman 1</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container fade-in">
+        <div class="light" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLuchESAR0BaDRnlgbJpa1m81-deq9uRDIQ&s');">
+            <img src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Left Light" id="image">
+            <p id="leftStatus">Lampu Mati</p>
+            <span id="leftButton"></span>
+            <div>
+            <button onclick="toggleLeftLight()">Nyalakan Lampu</button>
+        </div>
+        </div>
+
+
+        <div class="light1" id="rightLightContainer" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKno6V5Yqr-cN44TYEBb8paWrf2ACd_ahU-w&s');">
+            <img id="image2" src="https://www.w3schools.com/js/pic_bulboff.gif">
+            <p id="rightStatus">Lampu Mati</p>
+            <span id="rightLight"></span>
+            <div class="btn-jam">
+            <button onclick="toggleRightLight()">Nyalakan Lampu</button>
+            <button onclick="toggleRightLightOn()">Matikan Lampu</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <h2>Check Umur</h2>
+    <div class="tol1">
+            <input class="box" type="text" id="ageInput" placeholder="Masukan Usia" oninput="validateAgeInput(this)" inputmode="numeric">
+            <button class="tombol1" onclick="checkAge()">Cek Umur</button>
+            <p id="ageResult"></p>
+    </div>
+    </div>
+
+    <div class="card-container">
+        <h2>Guess The Number (1-10)</h2>
+        <div class="tol2">
+        <input class="plc" type="text" id="guessNumberInput" placeholder="Tebak Angka (1-10)" oninput="validateGuessInput(this)">
+        <button class="tombol2" onclick="guessNumber()">Cek Tebakan</button>
+        <p id="guessResult"></p>
+        </div>
+    </div>
+
+    <div class="card-container fade-in">
+        <div class="calculator">
+            <h2>KalKulator Sederhana</h2>
+            <div class="tol3">
+
+                <div class="input-section">
+                    <input class="plc" type="text" id="angka1" placeholder="Masukkan Angka Pertama">
+                    <input class="plc" type="text" id="angka2" placeholder="Masukkan Angka Kedua">
+                </div><br>
+
+
+                <div class="operation-section">
+                    <select id="operation" class="plc">
+                        <option value="+">Tambah</option>
+                        <option value="-">Kurang</option>
+                        <option value="/">Bagi</option>
+                        <option value="*">Kali</option>
+                    </select>
+                </div><br>
+
+                <button class="tombol3" onclick="calculate()">Hasil</button>
+                <button class="tombol3" onclick="clearInput()">Hapus</button>
+            </div>
+        </div>
+    </div>
+        <div class="result-section fade-in">
+            <span id="hasil"></span>
+        </div>
+        
+
+        <div class="card-container fade-in">
+            <h2>Temperature Converter</h2>
+            <div class="tol4">
+                <input class="plc" type="text" id="tempInput" placeholder="Masukkan Suhu" oninput="validateTemperatureInput(this)">
+                <select class="plc" id="tempUnit">
+                <option value="CtoF">Celsius ke Fahrenheit</option>
+                <option value="FtoC">Fahrenheit ke Celsius</option>
+                <option value="CtoK">Celsius ke Kelvin</option>
+                <option value="KtoC">Kelvin ke Celsius</option>
+                <option value="FtoK">Fahrenheit ke Kelvin</option>
+                <option value="KtoF">Kelvin ke Fahrenheit</option>
+            </select>
+                <button class="tombol4" onclick="convertTemperature()">Konversi</button>
+                <div class="hasil fade-in">
+                    <span id="tempResult"></span>
+                </div>
+            </div>
+        </div>
+    <script src="finaltugas2.js"></script>
+    <script src="consol.js
+    "></script>
+</body>
+
+</html>

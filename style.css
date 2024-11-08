@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.kkk{
+    text-decoration: none;
+}
+
+.kkk :hover{
+    text-decoration: underline;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav .button {
+    background-color: #ff7f00;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.table-section{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: medium;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form select{
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff7f00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff7f00;
+    color: white;
+}
+.awal {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTZLWUAzdeJc4PlI6PLtLzuwP_6kNkGazrnQ&s');
+    background-size: cover;
+    background-position: center;
+    padding: 16%;
+    text-align: center;
+    color: white;
+}
+
+.Pembuka h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Pembuka h1 span {
+    color:#ff7f00;
+}
+
+.Pembuka p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.btn-hub {
+    background-color: #ff7f00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.jdl-fitur{
+    font-size: medium;
+    width: 60%;
+    margin: 80px auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.isi ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.isi ul li{
+    font-size: 12px;
+    color: #555;
+    margin: 8px 0px;
+}
+
+.jdl-carakerja {
+    font-size: medium; 
+    width: 60%;
+    margin: 150px auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.isi2 ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-align: left;
+    margin-left: 400px;
+}
+
+.isi2 ol li{
+    font-size: 12px;
+    color: #555;
+    margin: 8px 0px;
+}
+
+.komentar1{
+    font-size: medium; 
+    margin: 100px auto;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.testimoni{
+    text-align: center;
+    margin: 20px auto;
+    max-width: 380px;
+}
+
+.orang{
+    margin-top: 9px;
+    font-size: small;
+    font-style: italic;
+    color: #8d8c8c;
+}
+
+.komentar{
+    border-left: 4px solid orangered;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+.komentar p{
+    font-style: italic;
+    font-size: 15px;
+    color: #686868;
+}
+
+.titel{
+    font-size: small; 
+    margin: 120px auto;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gambar img{
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+#g1:hover,
+#g2:hover,
+#g3:hover,
+#g4:hover {
+    width: 180px;
+    height: 140px;
+    border-radius: 10px;
+    margin-bottom: auto;
+}
+
+.Footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: smaller;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
